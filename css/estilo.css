@@ -23,9 +23,17 @@ header{
 
 nav{
     background-color:#83EAEB;
-    height: 30px;
+    height: 110px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 1%;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
 }
 
 header ul{
