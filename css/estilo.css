@@ -28,6 +28,17 @@ nav{
     padding-top: 1%;
 }
 
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+header a{
+    padding: 30px;
+    text-decoration: none;
+}
+
 main{
     margin-top: 1%;
     background-color:#84A9EB;
