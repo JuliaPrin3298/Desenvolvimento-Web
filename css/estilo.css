@@ -16,14 +16,12 @@ body{
 
 header{
     width: 100%;
-    height: auto;
-    background-color: #83CAEB;
+    height: 50px;
     padding: 10px;
 }
 
 nav{
-    background-color:#83EAEB;
-    height: 110px;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 1%;
     display: flex;
@@ -80,12 +78,99 @@ footer{
     height: 100px;
 }
 
-.logo{
-    width: 150px;
-    margin: 2%;
-}
-
 main img{
     width: 100px;
     height: auto;
 }
+
+
+
+
+
+/*Menu fixo */
+
+nav.fixa ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #83CAEB;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav.fixa li{
+    display: inline-block;
+}
+
+nav.fixa li{
+    float: left;
+}
+
+nav.fixa li a{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav.fixa li a:hover{
+    background-color:#323459;
+    color:white;
+}
+
+nav.fixa .active{
+    background-color: #84A9EB;
+    color: #323459;
+}
+
+
+
+
+
+
+/*Menu nav*/
+
+nav.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #323459;
+    text-align: center;
+}
+
+nav.menu li{
+    float: left;
+}
+
+nav.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.menu li a:hover{
+    background-color: #83CAEB;
+    color: black;
+}
+
+nav.menu .active{
+    background-color: #A6E0E0;
+}
+
+nav.menu li{
+    border-right: 1px solid dimgray;
+}
+
+nav.menu li:last-child{
+    border-right: none;
+}
+
+
