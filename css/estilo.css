@@ -163,6 +163,7 @@ nav.menu li a:hover{
 
 nav.menu .active{
     background-color: #A6E0E0;
+    color: black;
 }
 
 nav.menu li{
