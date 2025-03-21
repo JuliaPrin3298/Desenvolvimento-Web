@@ -1,3 +1,28 @@
+@font-face {
+    font-family: "Consola";
+    src: url(../Fontes/consola_mono/ConsolaMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Mainstay";
+    src: url(../Fontes/mainstay/Mainstay.ttf);
+}
+
+@font-face {
+    font-family: "Snoopy";
+    src: url(../Fontes/snoopy_dings/Snoopy_Dings.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
+/*
+Atma
+Exo 2
+Permanent Marker
+
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +32,9 @@
 body{
     background-color: #D2DBEB;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/fundo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #container{
@@ -21,8 +49,7 @@ header{
 }
 
 nav{
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Permanent";
     padding-top: 1%;
     display: flex;
     align-items: center;
@@ -43,6 +70,36 @@ header ul{
 header a{
     padding: 30px;
     text-decoration: none;
+}
+
+.title-bar{
+    background-color: #83CAEB;
+    width: 92%;
+    height: 200px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-bar h3{
+    font-family: Mainstay;
+    font-size: 70px;
+}
+
+.title-bar h6{
+    font-family: Consola;
+    font-size: 20px
+}
+
+.title-bar p{
+    font-family: Snoopy;
+    font-size: 100px;
+    
 }
 
 main{
@@ -102,6 +159,7 @@ nav.fixa ul{
     position: fixed;
     top: 0;
     width: 100%;
+   
 }
 
 nav.fixa li{
@@ -129,6 +187,10 @@ nav.fixa li a:hover{
 nav.fixa .active{
     background-color: #84A9EB;
     color: #323459;
+}
+
+nav.fixa{
+    ;
 }
 
 
