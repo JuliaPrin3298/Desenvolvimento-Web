@@ -13,13 +13,12 @@
     src: url(../Fontes/snoopy_dings/Snoopy_Dings.ttf);
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Notable&family=Pacifico&display=swap');
 
 /*
-Atma
-Exo 2
-Permanent Marker
+Fragment Mono
+Pacifico
+Notable 
 
 */
 
@@ -185,12 +184,8 @@ nav.fixa li a:hover{
 }
 
 nav.fixa .active{
-    background-color: #84A9EB;
+    background-color: rgb(132, 169, 235);
     color: #323459;
-}
-
-nav.fixa{
-    ;
 }
 
 
@@ -262,5 +257,17 @@ div.card{
 div.card img{
     width: 130px;
     height: 100px;
+}
+
+.card p{
+    font-family:  "Notable";
+}
+
+.card h4{
+    font-family: "Pacifico";
+}
+
+footer{
+    font-family: "Fragment Mono" ;
 }
 
