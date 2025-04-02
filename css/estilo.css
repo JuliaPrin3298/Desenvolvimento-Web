@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 @font-face {
     font-family: "Consola";
     src: url(../Fontes/consola_mono/ConsolaMono-Bold.ttf);
@@ -21,6 +23,7 @@ Pacifico
 Notable 
 
 */
+
 
 *{
     margin: 0;
@@ -105,7 +108,7 @@ main{
     margin-top: 1%;
     background-color:#84A9EB;
     width: 92%;
-    height: 390px;
+    height: auto;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
@@ -269,5 +272,37 @@ div.card img{
 
 footer{
     font-family: "Fragment Mono" ;
+}
+
+table.tabela{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+
+table.tabela th, 
+table.tabela td{
+    border: 1px solid black;
+    padding: 2%;
+}
+
+table.tabela tr{
+    background-color: #5abef0;
+}
+
+table.tabela tr:nth-child(even){
+    background-color: aliceblue ;
+
+}
+
+table.tabela th {
+    background-color: #04a;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table.tabela td.carrinho{
+    text-align: center;
 }
 
